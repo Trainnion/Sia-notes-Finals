@@ -1,0 +1,44 @@
+Activity Exercise
+https://github.com/Koykoy200078/SIA_Exercise_<section>.git
+
+
+// Clear All the set data in git
+git config --global --unset user.name
+git config --global --unset user.email
+
+// Clone my repository
+1st: git clone https://github.com/Koykoy200078/SIA_Exercise_<section>.git
+2nd: cd SIA_Exercise_<section>
+3rd: git checkout -b <your_last_name>
+
+// how to push
+git add .
+git commit -m "<message>"
+git push origin <your_last_name>
+
+
+"git-autoconfig.configList": [
+		{
+			"user.email": "",
+			"user.name": ""
+		}
+	]
+
+================================================================================================
+**Semantic Commit Messages**
+feat (Feature)
+fix (Bug Fix)
+docs (Documentation)
+style (Code Style)
+refactor (Code Refactoring)
+test (Testing)
+
+chore (Maintenance Tasks) // update npm dependencies to latest versions
+build (Build System) // configure webpack for production
+ci (Continuous Integration) // add GitHub Actions for automated testing
+perf (Performance) // optimize database queries for faster response times
+revert (Reverting Changes) // revert commit abc123 due to regression
+
+Best Practices
+Use the format: <type>(<scope>): <subject>.
+Keep the subject line concise and in the imperative mood (e.g., "Add", "Fix", "Update").
