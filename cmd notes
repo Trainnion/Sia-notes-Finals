@@ -1,0 +1,3 @@
+cd SIA_Exercise_B
+git checkout -b GutibJ
+git push origin GutibJ
