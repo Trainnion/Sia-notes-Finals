@@ -42,3 +42,8 @@ revert (Reverting Changes) // revert commit abc123 due to regression
 Best Practices
 Use the format: <type>(<scope>): <subject>.
 Keep the subject line concise and in the imperative mood (e.g., "Add", "Fix", "Update").
+
+
+
+Symmantic Messages
+"feat(Add Login, Home) rename app.tsx -> App.js " 
